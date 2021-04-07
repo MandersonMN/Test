@@ -1,0 +1,294 @@
+<mjml lang="en">
+  <mj-head>
+    <mj-breakpoint width="480px" />
+    <mj-attributes>
+      <mj-section padding="0" />
+      <mj-column padding="0" />
+      <mj-navbar-link color="#262626" font-size="11px" padding="20px 7% 16px 7%" />
+      <mj-text css-class="textlink-hover" font-family="Arial,sans serif;" line-height="22px" font-size="16px" color="#262626" />
+      <mj-button css-class="text-hover" font-size="16px" font-weight="bold" background-color="#009CDE" border-radius="3px" />
+    </mj-attributes>
+    <mj-style inline="inline">
+      a { color: #0076A8; font-weight: bold; text-decoration: none;}
+      h1 {font-size: 34px; line-height: 40px; color: #212322; font-weight: bold; margin: 0 0 15px 0;} h2 {font-size: 30px; line-height: 36px; color: #212322; font-weight: bold; margin: 0 0 15px 0;} h3 {font-size: 26px; line-height: 30px; color: #212322; font-weight: bold;  margin: 0 0 15px 0;} h4 {font-size: 22px; line-height: 25px; color: #212322; font-weight: bold;  margin: 0;} h5 {font-size: 18px; line-height: 25px; color: #212322; font-weight: bold; margin: 0 0 15px 0;} h6 {font-size: 18px; line-height: 25px; color: #212322; font-weight: regular; }     
+    </mj-style>
+    <mj-style>
+      .blue{color: #009CDE;}
+      .white{color: #FFFFFF !important;}
+      a:hover {
+      	text-decoration: underline !important;
+      }
+      .textlink-hover a:hover {
+      	text-decoration: underline !important;
+      	color: #00577B !important;
+      }
+      .hovered a:hover {
+      	background: #0076A8 !important;
+      	text-decoration: none !important;
+      	color: #FFFFFF !important;
+      }
+      .ghostbtn a:hover {
+      	background: #0076A8 !important;
+      	color: #FFFFFF !important;
+      	border: 0px #0076A8 solid !important;
+      	text-decoration: none !important;
+      }
+			.text-box td.textlink-hover,
+      .text-box td td.hovered,
+      .text-box td.ghostbtn{
+      	padding-left: 15px !important;
+      	padding-right:15px !important; 
+      }
+			.sidebar-bullets{
+      	margin:0;
+      	padding: 5px 0;
+      }
+      .icon-group table table td{
+        padding: 5px !important;
+      }
+      .referral table table td{
+        padding: 0px !important;
+      	margin:0px !important;
+      	width:90px !important;
+      }
+      
+      @media (max-width:600px) {
+        .mhidden, .mhidden table {
+          display: none;
+      		width: 0%;
+      		border: 0px !important;
+        }
+      	.mcenter div {
+      		text-align: center !important;
+      	}
+        .fullwidth {
+					width: 100% !important;
+        	max-width: 100%;
+        }
+        .mmargin {
+          margin-left: 20px !important;
+          margin-right: 20px !important;
+        }
+      	.m-1c-bg {
+      		background-color: #FFFFFF !important;
+      	}
+        .background-image,
+      	.background-image table { 
+      		background-position: top left !important;
+      	}
+        .buttoncenter,
+      	.buttoncenter table{ 
+      		text-align: center !important;
+      		margin-left: auto !important;
+      		margin-right:auto !important;
+      	}
+				.signature-image{
+      		width: 32% !important;
+      	}
+      	.signature{
+      		width: 68% !important;
+      	}
+			}
+      @media (min-width:601px) {
+        .dhidden {
+          display: none;
+          width: 0% !important;
+      		border: 0px !important;
+        }
+        .fullwidth {
+          width: 100% !important;
+        }
+      }
+    </mj-style>
+  </mj-head>
+  <mj-body background-color="#FFFFFF">
+    <!-- S-1.1 Preheader BEGIN -->
+    <mj-section css-class="mhidden" background-color="#FFFFFF">
+      <mj-group>
+        <mj-column width="40%">
+          <mj-text line-height="15px" align="left" font-size="12px" line-height="15px" color="#53565A">
+            <a href="https://application.strayer.edu/?mcode=49"><span style="color:#53565A;font-weight:normal;text-decoration:underline;">A better way to apply: without&nbsp;the&nbsp;fee</span></a>.
+          </mj-text>
+        </mj-column>
+        <mj-column width="60%">
+          <mj-text line-height="15px" align="right" font-size="12px" color="#53565A" text-decoration="underline">
+            <a href="http://app.learning.strayeruniversity.edu/e/es?s=~~eloqua..type--emailfield..syntax--siteid..encodeFor--url~~&e=~~eloqua..type--emailfield..syntax--elqemailsaveguid..encodeFor--url~~" name="ViewOnline"><span style="color:#53565A;font-weight:normal;text-decoration:underline;">View in browser</span></a>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- S-1.1 Preheader END -->
+    <!-- S-1.2 Brand Bar - White BEGIN  -->
+    <mj-section background-color="#FFFFFF">
+      <mj-column>
+        <mj-image alt="Strayer University" href="https://www.strayer.edu/" width="151px" padding="28px" align="center" src="http://images.learning.strayeruniversity.edu/EloquaImages/clients/StrayerEducation/%7B107fccbe-8f57-4fb2-bbf2-b8e4ab7e5e08%7D_strayer_logo_horizontal_440x100.png">
+        </mj-image>
+      </mj-column>
+    </mj-section>
+    <!-- S-1.2 Brand Bar - White END -->
+    <!-- S-1.3 Nav Bar - White BEGIN -->
+    <mj-section background-color="#FFFFFF">
+    	<mj-column>
+      	<mj-navbar>
+        	<mj-navbar-link href="https://www.strayer.edu">Chat</mj-navbar-link>
+          <mj-navbar-link href="tel:8774457180">Call</mj-navbar-link>
+          <mj-navbar-link href="mailto:universityadmissions@strayer.edu">Email</mj-navbar-link>
+          <mj-navbar-link href="https://application.strayer.edu/?mcode=49">Apply</mj-navbar-link>
+        </mj-navbar>
+      </mj-column>
+    </mj-section>
+  <!-- S-1.3 Nav Bar - White END -->
+  <!-- S-1.6 Standard hero / photo nsb cta BEGIN -->
+    <mj-section>
+      <mj-column>
+        <mj-image padding="0" src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7Be6c19c17-07b7-48ad-abdb-da348ed9ae3e%7D_75948_apply_yellowchair_1200x500.jpg" alt="woman in yellow cardigan sits in living room while resting her legs on foot stool"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#4AADE2">
+      <mj-column width="65%" padding="18px 3.34% 0px" background-color="#4AADE2">
+        <mj-text css-class="mcenter" align="left">
+          <h1 style="color:#ffffff;">The next step costs you nothing</h1>
+        </mj-text>
+      </mj-column>
+      <mj-column vertical-align="middle" padding="0" width="35%">
+        <mj-spacer css-class="mhidden" height="45px" />
+        <mj-button padding="0px 0px 30px" css-class="ghostbtn" href="https://application.strayer.edu/?mcode=49" align="center" border="1px #FFFFFF solid" color="#FFFFFF" background-color="#4AADE2">
+          Apply With No Fee
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- S-1.6 Standard hero / photo nsb cta -->
+  <!--  BEGIN S-1.5 Full Width Text Block -->
+    <mj-section css-class="text-box">
+      <mj-column padding="0% 3.34%">
+        <mj-text>
+          <h6 style="margin-bottom:0px;">Hi {First Name},</h6>
+          <p>We're enrolling for our next term so now’s the time to take charge of your future and venture into something both powerful and game-changing.</p>
+          <p>We've designed a simple admissions process that removes any confusion that may slow you down on your journey to academic and career success.</p> 
+          <p>There are no hidden requirements for programs. Best of all, we don't charge you an application fee like other universities.</p>
+          <p><a href="https://application.strayer.edu/?mcode=49">Take the next step</a>. No fee required.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  <!-- END S-1.5 Full Width Text Block -->
+  <!--  BEGIN S-2.4 Icon Title Text / left aligned -->
+    <mj-section>
+    	<mj-column>
+      	<mj-text padding-top="20px">
+        	<h2>Admissions requirements</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="icon-group">
+      <mj-group>
+        <mj-column padding="3.34%" width="25%" vertical-align="top">
+          <mj-image src="http://images.learning.strayeruniversity.edu/EloquaImages/clients/StrayerEducation/%7B8920a878-b4a7-483c-b8b2-d5d9cd4cc8b9%7D_CompletedApplication_S.png" alt="" width="55px" align="center"></mj-image>
+        </mj-column>
+        <mj-column padding="3.34%" width="75%" vertical-align="middle">
+          <mj-text>
+            <h4>Application</h4>
+            <p>Complete an <a href="https://application.strayer.edu/?mcode=49">online application</a>.</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <mj-section css-class="icon-group">
+      <mj-group>
+        <mj-column padding="3.34%" width="25%" vertical-align="top">
+          <mj-image src="http://images.learning.strayeruniversity.edu/EloquaImages/clients/StrayerEducation/%7B22a3bd48-471a-4d58-848c-370db0966b5a%7D_backgroundForApply2_S.png" alt="" width="55px" align="center"></mj-image>
+        </mj-column>
+        <mj-column padding="3.34%" width="75%" vertical-align="middle">
+          <mj-text>
+            <h4>Requirements</h4>
+            <p>Provide proof of a completed baccalaureate degree from an accredited college or university witha  cumulative GPA of 2.50 out of 4.0.</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>   
+    </mj-section>
+    <mj-section css-class="icon-group">
+      <mj-group>
+        <mj-column padding="3.34%" width="25%" vertical-align="top">
+          <mj-image padding-top="20px" src="http://images.learning.strayeruniversity.edu/EloquaImages/clients/StrayerEducation/%7B2f962b27-db18-4bd0-980d-40ef1715ef62%7D_CollegeDegree_S.png" alt="" width="55px" align="center"></mj-image>
+        </mj-column>
+        <mj-column padding="3.34%" width="75%" vertical-align="middle">
+          <mj-text>
+            <h4>Transcripts</h4>
+            <p>Obtain official copies of transcripts from all other colleges or universities attended.</p>
+          </mj-text>
+        </mj-column>
+      </mj-group>   
+    </mj-section>
+    <mj-section css-class="icon-group">
+      <mj-group>
+        <mj-column padding="3.34%" width="25%" vertical-align="top">
+          <mj-image src="http://images.learning.strayeruniversity.edu/EloquaImages/clients/StrayerEducation/%7Bc0d01c5b-5feb-467a-8681-05ccfdbe2f44%7D_EnrolledStudentsAlt_S.png" alt="calculator icon" width="65px" align="center"></mj-image>
+        </mj-column>
+        <mj-column padding="3.34%" width="75%" vertical-align="middle">
+          <mj-text>
+            <h4>Identification</h4>
+            <p>Upload a valid, current and legible government-issued photo&nbsp;identification.</p>
+          </mj-text>
+          <mj-spacer height="10px" />
+        </mj-column>
+      </mj-group>   
+    </mj-section>
+     <mj-section padding-bottom="20px">
+      <mj-column width="40%">
+      	<mj-button css-class="hovered buttoncenter" border="1px #009CDE solid" href="https://application.strayer.edu/?mcode=49" align="right" padding="10px 20px 20px 10px">
+          Apply Now
+        </mj-button>
+      </mj-column>
+      <mj-column width="60%">
+      	<mj-button css-class="ghostbtn buttoncenter" border="1px #009CDE solid" color="#0076A8" background-color="#FFFFFF" href="learning.strayeruniversity.edu/Info-Session%20" align="left" padding="10px 10px">
+          Register For Info Session
+        </mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- S-2.4 Icon Title Text / left aligned END -->
+    <!--  BEGIN 2.6 Title Text CTA / left / dark gray -->
+    <mj-section background-color="#53565A" css-class="text-box">
+      <mj-column padding="3.34%">
+        <mj-text>
+          <h2 class="white">Important</h2>
+          <p class="white">Complete the FAFSA as early as possible. It takes 20 minutes. <br class="mhidden" />Our school code for FAFSA is 001459.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- END 2.6 Title Text CTA / left / dark gray -->
+    <!-- Begin Dynamic Checklist -->
+    <mj-section background-color="#F0F0EF">
+      <mj-column>
+        <mj-text align="center" padding="30px 20px 0px">
+          <h2>A look at next&nbsp;steps</h2>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#F0F0EF" padding="20px">
+      <mj-group>
+        <mj-column>
+          <!-- image 1 -->
+          <mj-image href="http://learning.strayeruniversity.edu/get-to-know-strayer#model-box2" padding="3px" src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7B45ba80b1-c051-4e38-91db-ca9f6f31039c%7D_75948_gettoknow_check_130x130.jpg" alt="Get to know Strayer" width="131px" />
+          <!-- end image 1 -->
+        </mj-column>
+        <mj-column>
+          <!-- image 2 -->
+          <mj-image href="https://www.strayer.edu/online-degrees/" padding="3px" src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7B26265b51-61c4-48f4-ad16-eded690db843%7D_75948_findprogram_check_130x130.jpg" alt="Find your program" width="131px" />
+          <!-- end image 2 -->
+        </mj-column>
+      </mj-group>
+      <mj-group>
+        <mj-column>
+          <!-- image 3 -->
+          <mj-image padding="3px" src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7B474f2011-170a-4021-bdff-259822af2c34%7D_75948_connect_check_130x130.jpg" alt="Connect with an Admissions Officer" width="131px" />
+          <!-- end image 3 -->
+        </mj-column>
+        <mj-column>
+          <!-- image 4 https://application.strayer.edu/?mcode=40 -->
+          <mj-image href="https://application.strayer.edu/?mcode=49" padding="3px" src="https://images.elqassets.strategiced.com/EloquaImages/clients/SEIEloqua/%7Be79ba88f-6742-46d4-be2a-d6b2e05754ea%7D_75948_submitapp_check_130x130.jpg" alt="Submit your application" width="131px" />
+          <!-- end image 4 -->
+        </mj-column>
+      </mj-group>
+    </mj-section>
+    <!-- End Dynamic Checklist -->
+  </mj-body>
+</mjml>  
